@@ -5,11 +5,11 @@ class AppConstants {
   static const String companyName = 'IPOSITA';
   static const String appName = 'IMMS V.3';
   static const String polylineMapKey = 'MAP_KEY';
-  static const String baseUri = 'https://bmg.nigoote.com';
+  // static const String baseUri = 'https://bmg.nigoote.com';
   //driver routes
   // static const String baseUri = 'http://192.168.1.69';
   // static const String baseUri = 'http://127.0.0.1:8000';
-  // static const String baseUri = 'http://10.0.2.2:8000';
+  static const String baseUri = 'http://10.0.2.2:8000';
   static const String driverLoginUri ='/api/driver/login';
   static const String checkLoginStatusUri ='/api/driver/login-status';
   static const String driverLogoutUri ='/api/driver/driver-logout';
